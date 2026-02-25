@@ -25,7 +25,7 @@ The pipeline deploys the application to **Amazon ECS Fargate** behind an **Appli
 
 ---
 
-## Technologies Used
+## Services Used
 
 * Python (FastAPI)
 * Docker
