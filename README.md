@@ -1,4 +1,4 @@
-# FastAPI CI/CD on AWS (Production-Grade DevOps Project)
+# Containerized FastAPI CI/CD on AWS (Production-Grade DevOps Project)
 
 ## Overview
 
