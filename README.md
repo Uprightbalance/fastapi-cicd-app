@@ -77,6 +77,43 @@ This implementation intentionally favors **clarity, reproducibility, and realist
 
 ---
 
+## Real-World Problem This Project Solves
+
+Many teams struggle with manually deploying applications, maintaining consistent runtime environments, and managing infrastructure changes reliably across cloud environments.
+
+Common challenges include:
+
+- inconsistent deployments between environments
+- manual infrastructure provisioning
+- unreliable release processes
+- configuration drift
+- lack of deployment automation
+- operational overhead from managing servers or container hosts
+- difficulty reproducing environments consistently
+- limited deployment traceability and rollback capability
+
+This project was designed to address those challenges by implementing a production-style CI/CD workflow using:
+
+- Terraform for Infrastructure as Code
+- Jenkins for automated CI/CD orchestration
+- Docker for immutable application packaging
+- Amazon ECR for container image storage
+- Amazon ECS Fargate for managed container deployment
+- Application Load Balancer (ALB) for secure traffic routing and health checks
+
+The objective was not simply to deploy a FastAPI application, but to simulate how modern engineering teams automate application delivery in cloud environments while improving:
+
+- deployment consistency
+- release automation
+- infrastructure reproducibility
+- operational reliability
+- deployment traceability
+- cloud-native delivery workflows
+
+This project reflects practical DevOps engineering patterns commonly used in modern containerized application delivery platforms.
+
+---
+
 ## Architectural Decisions and Tradeoffs
 
 ### 1. ECS Fargate for Runtime
